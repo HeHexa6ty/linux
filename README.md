@@ -2,9 +2,14 @@
 
 Alias
 ```
-alias sysupd="sudo apt-get update -y; sudo apt-get upgrade -y"
-BROWSER="/mnt/c/Program Files/BraveSoftware/Brave-Browser/Application/brave.eze"
+alias x="cd /mnt/x"
+alias work="cd /mnt/x/Work"
+alias htdocs="cd /mnt/x/Apps/Xampp/htdocs"
+BROWSER="/mnt/c/Program\ Files/BraveSoftware/Brave-Browser/Application/brave.exe"
 alias see="$BROWSER"
+alias collageDB="mysql -h localhost -P3306 -u collage -D collage -p"
+alias sysupd="sudo apt-get update -y; sudo apt-get upgrade -y"
+PATH="/home/$USER/swift/swift-5.7.1-RELEASE-ubuntu22.04/usr/bin:$PATH"
 
 ```
 
