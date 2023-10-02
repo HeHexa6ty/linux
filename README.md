@@ -1,4 +1,4 @@
-# linux wsl
+# linux
 
 Alias
 ```
